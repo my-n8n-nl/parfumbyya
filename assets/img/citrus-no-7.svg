@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" width="1000" height="1250" role="img" preserveAspectRatio="xMidYMid slice"><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2=".55" y2="1">
+    <stop offset="0" stop-color="#F4F5E7"/><stop offset="1" stop-color="#E2E5CD"/>
+  </linearGradient>
+  <radialGradient id="vig" cx=".5" cy=".44" r=".8"><stop offset=".4" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></radialGradient>
+  <radialGradient id="spot" cx=".5" cy=".38" r=".5">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1000" height="1250" fill="url(#bg)"/>
+<rect width="1000" height="1250" fill="url(#spot)"/>
+<rect width="1000" height="1250" fill="url(#vig)"/>
+
+  <g transform="translate(500,-94.07999999999993) scale(1.28) translate(-500,0)">
+    <defs>
+      <linearGradient id="gv-citrus-no-7" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
+        <stop offset=".35" stop-color="#ffffff" stop-opacity=".04"/>
+        <stop offset=".78" stop-color="#ffffff" stop-opacity=".03"/>
+        <stop offset="1" stop-color="#ffffff" stop-opacity=".12"/>
+      </linearGradient>
+      <linearGradient id="gh-citrus-no-7" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".62"/>
+        <stop offset=".12" stop-color="#ffffff" stop-opacity=".10"/>
+        <stop offset=".55" stop-color="#ffffff" stop-opacity="0"/>
+        <stop offset=".88" stop-color="#ffffff" stop-opacity=".14"/>
+        <stop offset="1" stop-color="#ffffff" stop-opacity=".48"/>
+      </linearGradient>
+      <linearGradient id="liq-citrus-no-7" x1="0" y1="0" x2=".4" y2="1">
+        <stop offset="0" stop-color="#F1EDA9"/>
+        <stop offset=".55" stop-color="#C7C266"/>
+        <stop offset="1" stop-color="#C7C266"/>
+      </linearGradient>
+      <linearGradient id="cap-citrus-no-7" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#0A0A0A"/>
+        <stop offset=".14" stop-color="#151515"/>
+        <stop offset=".40" stop-color="#454545"/>
+        <stop offset=".70" stop-color="#151515"/>
+        <stop offset="1" stop-color="#0A0A0A"/>
+      </linearGradient>
+      <linearGradient id="neck-citrus-no-7" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+        <stop offset=".22" stop-color="#ffffff" stop-opacity=".10"/>
+        <stop offset=".8" stop-color="#ffffff" stop-opacity=".12"/>
+        <stop offset="1" stop-color="#ffffff" stop-opacity=".5"/>
+      </linearGradient>
+      <clipPath id="clip-citrus-no-7"><path d="M366.0,662 C366.0,612 410.0,596 500,596 C590.0,596 634.0,612 634.0,662 L634.0,956 Q634.0,986 604.0,986 L396.0,986 Q366.0,986 366.0,956 Z"/></clipPath>
+      <filter id="blur-citrus-no-7" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="16"/>
+      </filter>
+      <filter id="soft-citrus-no-7" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="6"/>
+      </filter>
+    </defs>
+
+    <ellipse cx="500" cy="1002" rx="160.79999999999998" ry="22" fill="#000" opacity=".20" filter="url(#blur-citrus-no-7)"/>
+
+    <!-- glaslichaam -->
+    <path d="M366.0,662 C366.0,612 410.0,596 500,596 C590.0,596 634.0,612 634.0,662 L634.0,956 Q634.0,986 604.0,986 L396.0,986 Q366.0,986 366.0,956 Z" fill="#ffffff" fill-opacity=".16"/>
+    <g clip-path="url(#clip-citrus-no-7)">
+      <rect x="0" y="694" width="1000" height="296" fill="url(#liq-citrus-no-7)"/>
+      <rect x="0" y="694" width="1000" height="3" fill="#ffffff" opacity=".5"/>
+      <rect x="0" y="697" width="1000" height="10" fill="#000" opacity=".12"/>
+      <rect x="0" y="596" width="1000" height="390" fill="url(#gv-citrus-no-7)"/>
+      <rect x="0" y="596" width="1000" height="390" fill="url(#gh-citrus-no-7)"/>
+      <!-- specular highlight -->
+      <rect x="396.0" y="636" width="14" height="280"
+            rx="7" fill="#ffffff" opacity=".5" filter="url(#soft-citrus-no-7)"/>
+      <rect x="594.0" y="622" width="6" height="310"
+            rx="3" fill="#ffffff" opacity=".26"/>
+    </g>
+    <path d="M366.0,662 C366.0,612 410.0,596 500,596 C590.0,596 634.0,612 634.0,662 L634.0,956 Q634.0,986 604.0,986 L396.0,986 Q366.0,986 366.0,956 Z" fill="none" stroke="#ffffff" stroke-opacity=".6" stroke-width="2.5"/>
+
+    <!-- hals -->
+    <rect x="458.0" y="470" width="84" height="140" rx="10"
+          fill="#ffffff" fill-opacity=".10"/>
+    <rect x="458.0" y="470" width="84" height="140" rx="10" fill="url(#neck-citrus-no-7)"/>
+    <rect x="458.0" y="470" width="3" height="140" fill="#ffffff" opacity=".55"/>
+    <rect x="539.0" y="470" width="3" height="140" fill="#ffffff" opacity=".4"/>
+
+    <!-- kraag -->
+    <rect x="448.0" y="452" width="104" height="26" rx="8" fill="url(#cap-citrus-no-7)"/>
+    <rect x="448.0" y="452" width="104" height="5" rx="2.5" fill="#ffffff" opacity=".4"/>
+
+    <!-- dop -->
+    <rect x="436.0" y="300" width="128" height="150" rx="16" fill="url(#cap-citrus-no-7)"/>
+    <rect x="440.0" y="304" width="120" height="10" rx="5" fill="#ffffff" opacity=".38"/>
+    <rect x="450.0" y="326" width="12" height="98" rx="6" fill="#ffffff" opacity=".26"/>
+    <rect x="436.0" y="438" width="128" height="12" rx="6" fill="#000" opacity=".18"/>
+
+    <!-- label -->
+    <text x="500" y="782" text-anchor="middle" fill="#33351F" opacity=".9"
+          font-family="Georgia, 'Times New Roman', serif" font-size="21"
+          letter-spacing="4">CITRUS Nº 7</text>
+    <line x1="440" y1="812" x2="560" y2="812"
+          stroke="#33351F" stroke-opacity=".45" stroke-width="1.5"/>
+    <text x="500" y="844" text-anchor="middle" fill="#33351F" opacity=".6"
+          font-family="Helvetica, Arial, sans-serif" font-size="10"
+          letter-spacing="3">EAU DE COLOGNE</text>
+  </g><rect width="1000" height="1250" filter="url(#grain)" opacity=".08" style="mix-blend-mode:overlay"/></svg>

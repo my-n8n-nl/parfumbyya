@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" preserveAspectRatio="xMidYMid slice"><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2=".7" y2="1">
+    <stop offset="0" stop-color="#2A2119"/><stop offset="1" stop-color="#0B0908"/>
+  </linearGradient>
+  <radialGradient id="beam" cx=".7" cy=".25" r=".8">
+    <stop offset="0" stop-color="#F0D9B2" stop-opacity=".5"/>
+    <stop offset=".45" stop-color="#8A6B44" stop-opacity=".14"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<rect width="1200" height="900" fill="url(#beam)"/>
+  <g transform="translate(790,-194.69999999999993) scale(0.95) translate(-500,0)">
+    <defs>
+      <linearGradient id="gv-bois-de-nuit-d" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
+        <stop offset=".35" stop-color="#ffffff" stop-opacity=".04"/>
+        <stop offset=".78" stop-color="#ffffff" stop-opacity=".03"/>
+        <stop offset="1" stop-color="#ffffff" stop-opacity=".12"/>
+      </linearGradient>
+      <linearGradient id="gh-bois-de-nuit-d" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".62"/>
+        <stop offset=".12" stop-color="#ffffff" stop-opacity=".10"/>
+        <stop offset=".55" stop-color="#ffffff" stop-opacity="0"/>
+        <stop offset=".88" stop-color="#ffffff" stop-opacity=".14"/>
+        <stop offset="1" stop-color="#ffffff" stop-opacity=".48"/>
+      </linearGradient>
+      <linearGradient id="liq-bois-de-nuit-d" x1="0" y1="0" x2=".4" y2="1">
+        <stop offset="0" stop-color="#443026"/>
+        <stop offset=".55" stop-color="#150C07"/>
+        <stop offset="1" stop-color="#150C07"/>
+      </linearGradient>
+      <linearGradient id="cap-bois-de-nuit-d" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#0A0A0A"/>
+        <stop offset=".14" stop-color="#151515"/>
+        <stop offset=".40" stop-color="#454545"/>
+        <stop offset=".70" stop-color="#151515"/>
+        <stop offset="1" stop-color="#0A0A0A"/>
+      </linearGradient>
+      <linearGradient id="neck-bois-de-nuit-d" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+        <stop offset=".22" stop-color="#ffffff" stop-opacity=".10"/>
+        <stop offset=".8" stop-color="#ffffff" stop-opacity=".12"/>
+        <stop offset="1" stop-color="#ffffff" stop-opacity=".5"/>
+      </linearGradient>
+      <clipPath id="clip-bois-de-nuit-d"><path d="M330.0,604 Q330.0,596 338.0,596 L662.0,596 Q670.0,596 670.0,604 L670.0,978 Q670.0,986 662.0,986 L338.0,986 Q330.0,986 330.0,978 Z"/></clipPath>
+      <filter id="blur-bois-de-nuit-d" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="16"/>
+      </filter>
+      <filter id="soft-bois-de-nuit-d" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="6"/>
+      </filter>
+    </defs>
+
+    <ellipse cx="500" cy="1002" rx="204.0" ry="22" fill="#000" opacity=".55" filter="url(#blur-bois-de-nuit-d)"/>
+
+    <!-- glaslichaam -->
+    <path d="M330.0,604 Q330.0,596 338.0,596 L662.0,596 Q670.0,596 670.0,604 L670.0,978 Q670.0,986 662.0,986 L338.0,986 Q330.0,986 330.0,978 Z" fill="#ffffff" fill-opacity=".05"/>
+    <g clip-path="url(#clip-bois-de-nuit-d)">
+      <rect x="0" y="694" width="1000" height="296" fill="url(#liq-bois-de-nuit-d)"/>
+      <rect x="0" y="694" width="1000" height="3" fill="#ffffff" opacity=".5"/>
+      <rect x="0" y="697" width="1000" height="10" fill="#000" opacity=".12"/>
+      <rect x="0" y="596" width="1000" height="390" fill="url(#gv-bois-de-nuit-d)"/>
+      <rect x="0" y="596" width="1000" height="390" fill="url(#gh-bois-de-nuit-d)"/>
+      <!-- specular highlight -->
+      <rect x="360.0" y="636" width="14" height="280"
+            rx="7" fill="#ffffff" opacity=".26" filter="url(#soft-bois-de-nuit-d)"/>
+      <rect x="630.0" y="622" width="6" height="310"
+            rx="3" fill="#ffffff" opacity=".26"/>
+    </g>
+    <path d="M330.0,604 Q330.0,596 338.0,596 L662.0,596 Q670.0,596 670.0,604 L670.0,978 Q670.0,986 662.0,986 L338.0,986 Q330.0,986 330.0,978 Z" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2.5"/>
+
+    <!-- hals -->
+    <rect x="448.0" y="470" width="104" height="140" rx="10"
+          fill="#ffffff" fill-opacity=".04"/>
+    <rect x="448.0" y="470" width="104" height="140" rx="10" fill="url(#neck-bois-de-nuit-d)"/>
+    <rect x="448.0" y="470" width="3" height="140" fill="#ffffff" opacity=".55"/>
+    <rect x="549.0" y="470" width="3" height="140" fill="#ffffff" opacity=".4"/>
+
+    <!-- kraag -->
+    <rect x="438.0" y="452" width="124" height="26" rx="8" fill="url(#cap-bois-de-nuit-d)"/>
+    <rect x="438.0" y="452" width="124" height="5" rx="2.5" fill="#ffffff" opacity=".4"/>
+
+    <!-- dop -->
+    <rect x="426.0" y="300" width="148" height="150" rx="16" fill="url(#cap-bois-de-nuit-d)"/>
+    <rect x="430.0" y="304" width="140" height="10" rx="5" fill="#ffffff" opacity=".38"/>
+    <rect x="440.0" y="326" width="12" height="98" rx="6" fill="#ffffff" opacity=".26"/>
+    <rect x="426.0" y="438" width="148" height="12" rx="6" fill="#000" opacity=".18"/>
+
+    <!-- label -->
+    <text x="500" y="782" text-anchor="middle" fill="#F6F1E9" opacity=".9"
+          font-family="Georgia, 'Times New Roman', serif" font-size="32"
+          letter-spacing="6">BOIS DE NUIT</text>
+    <line x1="440" y1="812" x2="560" y2="812"
+          stroke="#F6F1E9" stroke-opacity=".45" stroke-width="1.5"/>
+    <text x="500" y="844" text-anchor="middle" fill="#F6F1E9" opacity=".6"
+          font-family="Helvetica, Arial, sans-serif" font-size="12"
+          letter-spacing="4">EXTRAIT DE PARFUM</text>
+  </g><rect width="1200" height="900" filter="url(#grain)" opacity=".08" style="mix-blend-mode:overlay"/></svg>
